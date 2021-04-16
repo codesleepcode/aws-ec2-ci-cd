@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req,res) => {
-    res.send("<html> <h1> welcome to version 2 </h1></html>");
+    res.send("<html> <h1> welcome to version 3 </h1></html>");
 })
 
 app.get('/products', (req,res) =>{
